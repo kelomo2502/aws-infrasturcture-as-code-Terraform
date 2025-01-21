@@ -3,3 +3,9 @@ variable "instance_name" {
   type        = string
   default     = "MyDeploymentServer"
 }
+
+variable "ami" {
+  description = "This is the amazom machine image"
+  type        = string
+  default     = "ami-04b4f1a9cf54c11d0"
+}
