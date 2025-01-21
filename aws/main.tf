@@ -1,4 +1,7 @@
 terraform {
+  backend "remote"{
+    organization = "kelomo2502"
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
