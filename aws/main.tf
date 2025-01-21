@@ -1,6 +1,9 @@
 terraform {
   backend "remote"{
     organization = "kelomo2502"
+    workspaces {
+      name = "training-workspace"
+    }
   }
   required_providers {
     aws = {
